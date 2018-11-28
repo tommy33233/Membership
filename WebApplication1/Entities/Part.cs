@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApplication1.Entities
 {
-    [Table("Section")]
+    [Table("Part")]
     public class Part
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApplication1.Entities
 {
-    [Table("SubscriptionProduct")]
+    [Table("UserSubscription")]
     public class UserSubscription
     {
         [Key, Column(Order = 1)]

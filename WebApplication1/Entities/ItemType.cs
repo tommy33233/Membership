@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApplication1.Entities
 {
-    [Table("Section")]
+    [Table("ItemType")]
     public class ItemType
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

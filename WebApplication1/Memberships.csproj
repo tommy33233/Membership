@@ -203,7 +203,7 @@
     <Compile Include="Entities\Part.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\ProductItem.cs" />
-    <Compile Include="Entities\ProductLinkTable.cs" />
+    <Compile Include="Entities\ProductLinkText.cs" />
     <Compile Include="Entities\ProductType.cs" />
     <Compile Include="Entities\Section.cs" />
     <Compile Include="Entities\Subscription.cs" />
@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201811231817294_MembershipDB.cs" />
     <Compile Include="Migrations\201811231817294_MembershipDB.Designer.cs">
       <DependentUpon>201811231817294_MembershipDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811280652555_Mem.cs" />
+    <Compile Include="Migrations\201811280652555_Mem.Designer.cs">
+      <DependentUpon>201811280652555_Mem.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -302,6 +306,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811231817294_MembershipDB.resx">
       <DependentUpon>201811231817294_MembershipDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811280652555_Mem.resx">
+      <DependentUpon>201811280652555_Mem.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

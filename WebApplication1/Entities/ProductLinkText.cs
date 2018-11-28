@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApplication1.Entities
 {
-    [Table("ProductLinkTable")]
-    public class ProductLinkTable
+    [Table("ProductLinkText")]
+    public class ProductLinkText
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }

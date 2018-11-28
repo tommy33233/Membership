@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Entities
 {
-    [Table("Section")]
+    [Table("Item")]
     public class Item
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
