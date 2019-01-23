@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<WebApplication1.Entities.Section>
-
+@using WebApplication1.Areas.Admin.Models;
 @{
     ViewBag.Title = "Index";
 }
@@ -23,11 +23,12 @@
         <td>
             @Html.DisplayFor(modelItem => item.Title)
         </td>
-        <td>
+        @*<td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
+        </td>*@
+        @Html.Partial("_TableButtonsPartial", new SmallButtonModel { Id=item.Id})
     </tr>
 }
 
